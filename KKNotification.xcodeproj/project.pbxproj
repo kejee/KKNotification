@@ -15,6 +15,7 @@
 		0A18FF591E9536A300BFE628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A18FF571E9536A300BFE628 /* LaunchScreen.storyboard */; };
 		0A18FF641E9536A300BFE628 /* KKNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18FF631E9536A300BFE628 /* KKNotificationTests.m */; };
 		0A18FF6F1E9536A300BFE628 /* KKNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18FF6E1E9536A300BFE628 /* KKNotificationUITests.m */; };
+		0A18FF7E1E9536B900BFE628 /* HJTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18FF7D1E9536B900BFE628 /* HJTNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0A18FF6A1E9536A300BFE628 /* KKNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A18FF6E1E9536A300BFE628 /* KKNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKNotificationUITests.m; sourceTree = "<group>"; };
 		0A18FF701E9536A300BFE628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A18FF7C1E9536B900BFE628 /* HJTNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTNotification.h; sourceTree = "<group>"; };
+		0A18FF7D1E9536B900BFE628 /* HJTNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		0A18FF481E9536A300BFE628 /* KKNotification */ = {
 			isa = PBXGroup;
 			children = (
+				0A18FF7C1E9536B900BFE628 /* HJTNotification.h */,
+				0A18FF7D1E9536B900BFE628 /* HJTNotification.m */,
 				0A18FF4C1E9536A300BFE628 /* AppDelegate.h */,
 				0A18FF4D1E9536A300BFE628 /* AppDelegate.m */,
 				0A18FF4F1E9536A300BFE628 /* ViewController.h */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A18FF511E9536A300BFE628 /* ViewController.m in Sources */,
+				0A18FF7E1E9536B900BFE628 /* HJTNotification.m in Sources */,
 				0A18FF4E1E9536A300BFE628 /* AppDelegate.m in Sources */,
 				0A18FF4B1E9536A300BFE628 /* main.m in Sources */,
 			);
